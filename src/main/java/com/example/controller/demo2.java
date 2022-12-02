@@ -24,7 +24,9 @@ public class demo2 extends HttpServlet {
         String brand = JSON.toJSONString( users );
 
         PrintWriter writer = response.getWriter( );
+
         writer.write( brand );
+
 
 
 
